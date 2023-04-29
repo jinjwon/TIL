@@ -160,25 +160,25 @@ _You **can** ~~combine~~ them_
 -------------------------------
 # 9. 이미지
 * 링크와 비슷하지만 앞에 !가 붙습니다.
-* 인라인 이미지 ![alt text](/test.png)
-* 링크 이미지 ![alt text](image_URL)
+* 인라인 이미지 ` ![alt text](/test.png)`
+* 링크 이미지 `![alt text](image_URL)`
 * 이미지의 사이즈를 변경하기 위해서는 <img width="OOOpx" height="OOOpx"></img>와 같이 표현합니다.
 ------
-![텍스트](이미지파일경로.jpg)
-![텍스트](이미지파일URL)
+`![텍스트](이미지파일경로.jpg)`
+`![텍스트](이미지파일URL)`
 
 ------
 + 이미지 파일에 마우스를 올렸을 때 커서 옆에 나오는 텍스트 설정
 
-![텍스트](이미지파일경로.jpg "이미지이름") 
-![텍스트](이미지파일URL "이미지이름")
+`![텍스트](이미지파일경로.jpg "이미지이름") `
+`![텍스트](이미지파일URL "이미지이름")`
 
 ------
 + 링크와 이미지를 합친 문법 (이미지를 링크로 사용)
 
-[ ![텍스트](이미지URL) ]( 링크URL )
+`[ ![텍스트](이미지URL) ]( 링크URL )`
 
-[![텍스트](https://t1.daumcdn.net/cfile/tistory/2444873B57E257821F)](https://unity3d.com/kr)
+`[![텍스트](https://t1.daumcdn.net/cfile/tistory/2444873B57E257821F)](https://unity3d.com/kr)`
 
 ----------------
 # 10. Links (Anchor) 링크
