@@ -2,9 +2,8 @@
 코딩인력사무소 과제
 ## <피그마 연정 강의>
 <br/>
- ![Image Description](gdh)
-[gdh]:https://images.squarespace-cdn.com/content/v1/54d0280ae4b0424c03ab6474/1597846423353-VBMB2PPTE07PTTRYC9YM/image-asset.png
-
+ ![Image Description]:(https://images.squarespace-cdn.com/content/v1/54d0280ae4b0424c03ab6474/1597846423353-VBMB2PPTE07PTTRYC9YM/image-asset.png)
+<br/>
        
 + 피그마는 macOS 및 윈도우용 데스크톱 애플리케이션들에 의해 활성화되는 추가 오프라인 기능들을 갖춘 인터페이스 디자인을 위한 협업 웹 애플리케이션이다.
  
