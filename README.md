@@ -1,6 +1,6 @@
 # TIL
 코딩인력사무소 과제
-## <피그마 연정 강의>
+## <피그마  강의>
 
  ![git](https://images.squarespace-cdn.com/content/v1/54d0280ae4b0424c03ab6474/1597846423353-VBMB2PPTE07PTTRYC9YM/image-asset.png )
 <br/>       
@@ -17,21 +17,19 @@
 3. 피그마의 팀라이브러리를 사용한 실무사례 (feat. figJam)  
      - 강의 영상: https://youtu.be/UQB-2H7vWjk
          - 강의 다 듣고 마지막에 활용하기 ,어려울 경우  복습.
-
-  4. 피그마 기본 설정ㅣ객체 이동 시, 8px Grid 간격 조정하는 방법  
-       - [강의 영상][edh]
+       
+4. 피그마 기본 설정ㅣ객체 이동 시, 8px Grid 간격 조정하는 방법  
+    - 강의 영상:https://youtu.be/uS0RzxUzjVc
             - 강의 다 듣고  마지막에 활용하기 ,이해가 잘 안되고 있을 때  복습.
-[edh]: https://youtu.be/uS0RzxUzjVc
- 
+
  5. 피그마 피그마 파일 공유 
-    - [강의 영상][edg]
+    - 강의 영상: https://youtu.be/-cGX96AE1tY
         - 강의 다 듣고 난  후애 직접 공유 파일 해보기 , 잘 업로드되는 경우 강의를 다시   시청.
-[edg]: https://youtu.be/-cGX96AE1tY
- 
+
 6.  피그마 New 오토 레이아웃 기본 익히기 
-    -  [강의 영상][edg]
+    -  강의 영상: https://youtu.be/y-RnSm7VWVI
+
         - 강의를 다 시청한 후 직접 해보기 , 이해가 된 경우 복습을 한 번 더 하고 선배님에게 도움을  요청한다.
-[edg]: https://youtu.be/y-RnSm7VWVI
 
 7. 피그마 컴포넌트 & Variants 기능 I 버튼 생성하기   
      - [강의 영상][edf]
