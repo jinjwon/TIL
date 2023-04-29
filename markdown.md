@@ -8,7 +8,7 @@
         * H1은 ===로도 만들 수 있습니다
         * H2는 ---로도 만들 수 있습니다
 
-          * This is an H1
+         * This is an H1
           * ===
           * This is an H2
           *  ' --- '
