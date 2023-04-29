@@ -46,8 +46,8 @@ This is an H2
 
 # 2. Horizontal Rules 수평선
  
-`- 또는 * 또는 _ 을 3개 이상 작성.
-단, -을 사용할 경우 header로 인식할 수 있으니 이 전 라인은 비워두어야 합니다.`
+`- 또는 * 또는 _ 을 3개 이상 작성.`
+`단, -을 사용할 경우 header로 인식할 수 있으니 이 전 라인은 비워두어야 합니다.`
 
 * * *
 ***
@@ -58,8 +58,8 @@ This is an H2
 **________________________________**
 # 3. Line Breaks 줄바꿈
  
-`<br>를 활용해서 줄바꿈을 할 수 있습니다.
- 엔터로 칸을 띄면 다음 행으로 넘어가게 됩니다. <br>은 하나의 문장에서 줄바꿈`
+`<br>를 활용해서 줄바꿈을 할 수 있습니다.`
+` 엔터로 칸을 띄면 다음 행으로 넘어가게 됩니다. <br>은 하나의 문장에서 줄바꿈`
 
 Oh my my my oh my my my
 You got me high so fast <br>
@@ -88,11 +88,16 @@ _You **can** ~~combine~~ them_
 -----------------------------------
 # 5. Blockquotes 인용
  
-- >으로 시작하는 텍스트.
-   * >는 3개까지 가능합니다.
+`>으로 시작하는 텍스트.`
+  `>는 3개까지 가능합니다.`
 
+As Grace Hopper said:
+> I’ve always been more interested in the future than in the past.    
+> This is a first blockquote.
+> > This is a second blockquote.
+> > > This is a third blockquote.
 
-
+-------------------------------------
 
 
 
