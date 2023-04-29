@@ -46,8 +46,8 @@ This is an H2
 
 # 2. Horizontal Rules 수평선
  
-[- 또는 * 또는 _ 을 3개 이상 작성.
-단, -을 사용할 경우 header로 인식할 수 있으니 이 전 라인은 비워두어야 합니다.]
+`- 또는 * 또는 _ 을 3개 이상 작성.
+단, -을 사용할 경우 header로 인식할 수 있으니 이 전 라인은 비워두어야 합니다.`
 
 * * *
 ***
@@ -77,8 +77,19 @@ You got me fly so fast <br>
 취소선 : ~~로 감싼 텍스트."
 이탤릭체와 두껍게를 같이 사용할 수 있습니다.`
 
+_This will also be italic_
 
+**This will also be bold**
 
+~~This is canceled~~
+
+_You **can** ~~combine~~ them_
+
+-----------------------------------
+# 5. Blockquotes 인용
+ 
+- >으로 시작하는 텍스트.
+   * >는 3개까지 가능합니다.
 
 
 
