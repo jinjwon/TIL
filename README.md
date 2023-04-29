@@ -9,8 +9,9 @@
 
 1. 피그마  실무를 위한 Figma 시작 가이드 (feat. 피그마에 최적화된 디자인 시스템 구축) 
     - [강의 영상][edf]
-        - 강의 다 시청 후에  실천하기
-[edf]: https://youtu.be/Y7_LfW8SmW8
+    [edf]: https://youtu.be/Y7_LfW8SmW8
+          - 강의 다 시청 후에  실천하기
+
 
 2. 피그마 컴포먼트 & 팀 라이브리 기능 
      - [강의 영상][edt]
