@@ -74,10 +74,12 @@ You got me fly so fast <br>
 ---------------------------------
 # 4. Emphasis 강조
 
-* `기울여 쓰기(italic) : * 또는 _로 감싼 텍스트.'
-<br/>
-* '두껍게 쓰기(bold) : ** 또는 __로 감싼 텍스트.'
-- ' 취소선 : ~~로 감싼 텍스트." '
+* `기울여 쓰기(italic) : * 또는 _로 감싼 텍스트'
+   <br>
+ '두껍게 쓰기(bold) : ** 또는 __로 감싼 텍스트.'
+ <br>
+' 취소선 : ~~로 감싼 텍스트." '
+<br>
 `이탤릭체와 두껍게를 같이 사용할 수 있습니다.`
 
 _This will also be italic_
@@ -105,6 +107,7 @@ As Grace Hopper said:
 # 6. Lists 목록
  **Unordered lists 순서가 없는 목록**
  `*, +, - 를 이용해서 순서가 없는 목록을 만들 수 있습니다.`
+<br>
 `들여쓰기를 하면 모양이 바뀝니다.`
 
 * 머리
@@ -123,9 +126,90 @@ As Grace Hopper said:
 
 ----------------------------------
 # 7. Ordered lists 순서가 있는 목록
-숫자를 기입하면 순서가 있는 목록이 됩니다.
-들여쓰기를 하면 모양이 바뀝니다.
-숫자를 무엇을 쓰느냐는 그다지 큰 의미가 없고 순서대로 알아서 숫자를 매깁니다
+-숫자를 기입하면 순서가 있는 목록이 됩니다.
+-들여쓰기를 하면 모양이 바뀝니다.
+-숫자를 무엇을 쓰느냐는 그다지 큰 의미가 없고 순서대로 알아서 숫자를 매깁니다
+
+_This will also be italic_
+
+**This will also be bold**
+
+~~This is canceled~~
+
+_You **can** ~~combine~~ them_
+
+----------------------------------
+# 8. Emphasis 강조
+
+'기울여 쓰기(italic) : * 또는 _로 감싼 텍스트.'
+<br>
+'두껍게 쓰기(bold) : ** 또는 __로 감싼 텍스트.'
+<br>
+`취소선 : ~~로 감싼 텍스트.'
+<br>
+`이탤릭체와 두껍게를 같이 사용할 수 있습니다.`
+
+_This will also be italic_
+
+**This will also be bold**
+
+~~This is canceled~~
+
+_You **can** ~~combine~~ them_
+
+-------------------------------
+# 9. 이미지
+* 링크와 비슷하지만 앞에 !가 붙습니다.
+* 인라인 이미지 ![alt text](/test.png)
+* 링크 이미지 ![alt text](image_URL)
+* 이미지의 사이즈를 변경하기 위해서는 <img width="OOOpx" height="OOOpx"></img>와 같이 표현합니다.
+------
+![텍스트](이미지파일경로.jpg)
+![텍스트](이미지파일URL)
+
+------
++ 이미지 파일에 마우스를 올렸을 때 커서 옆에 나오는 텍스트 설정
+
+![텍스트](이미지파일경로.jpg "이미지이름") 
+![텍스트](이미지파일URL "이미지이름")
+
+------
++ 링크와 이미지를 합친 문법 (이미지를 링크로 사용)
+
+[ ![텍스트](이미지URL) ]( 링크URL )
+
+[![텍스트](https://t1.daumcdn.net/cfile/tistory/2444873B57E257821F)](https://unity3d.com/kr)
+
+----------------
+# 10. Links (Anchor) 링크
+
+` [Google](http://www.google.com "구글")`
+<br>
+`[Naver](http://www.naver.com "네이버")`
+<br>
+`[Github](http://www.github.com "깃허브")`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
