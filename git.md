@@ -33,6 +33,7 @@
    - 실습
     
  `mkdir sample`
+ <br>
  `cd sample`
  `touch red orange`
  `echo "빨강" >> red`
