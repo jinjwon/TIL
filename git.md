@@ -1,6 +1,6 @@
 # Git (opens new window)
 
-![pont](https://velog.velcdn.com/images/dnrwhddk1/post/1c4d727f-25b3-44dc-aa82-f12996688782/image.png"Git")
+![pont](https://velog.velcdn.com/images/dnrwhddk1/post/1c4d727f-25b3-44dc-aa82-f12996688782/image.png)
 
 - git은 리누스 토발즈Linus Torvalds가 2005년에  만든 분산 버전 관리 시스템(DVCS)Distributed version control systems입니다. 수많은 회사에서 수많은 소스가 Git으로 관리되고 개발자라면 반드시 알아야 하는 기술 중 하나입니다.
 
@@ -18,7 +18,7 @@
 - branch: 브랜치 / 한국어로 번역하면 가지치기 또는 갈래라고 하는데 또 다른 작업공간을 의미
 - merge: 머지 / 한국어로 병합 또는 합치기라고 하는데 특정 브랜치에서 작업한 내용을 또 다른 브랜치에 적용하는 것을 의미
 
-----------------------------------------------------;
+----------------------------------------------------
 
 ## git init - 저장소 만들기
 
@@ -55,7 +55,7 @@
     + main branch
     + 기본 브랜치 설정이 master인 경우 main 대신 master로 설정됩니다. 최근 master 대신 main을 쓰는 추세고 master로 설정되었다면 git branch -M main 명령어로 브랜치를 main으로 변경해주세요.
 
------------------------------------;
+-----------------------------------
 
 ### __git status - 현재 상태 확인__
 
@@ -89,7 +89,7 @@
       + 현재 브랜치(main)와 커밋 상태, 작업 중인 파일의 상태 확인
       + untracked files(추적하지 않는 파일)이 존재하는 것을 확인
 
-       -----------------------;
+       -----------------------
 
 #### git add - 현재 상태 추적
 
@@ -120,7 +120,7 @@
 
 - untracked files에 있던 orange와 red의 상태가 변경된 것을 확인
 
----------------------;
+---------------------
 
 ##### git commit - 현재 상태 저장
 
@@ -220,7 +220,7 @@
 - 현재 Git 저장소 이력
   첫번째 커밋(v1)---두번째 커밋(v2)---세번째 커밋(v3)
 
--------------------------------------;
+-------------------------------------
 
 ###### git log - 이력 확인
 
@@ -308,7 +308,7 @@
 
 - 푸시 후 GitHub 페이지를 새로고침 합니다.
 
-![http](https://subicura.com/git/assets/img/github-push.ce6d3007.png"GitHub 페이지")
+![http](https://subicura.com/git/assets/img/github-push.ce6d3007.png)
 
 - 로컬 저장소에서 작업한 내용이 똑같이 보이는 것을 확인할 수 있습니다. 여러 가지 메뉴를 눌러보면 CLI로 확인했던 사항을 웹으로 볼 수 있습니다.
 
@@ -349,15 +349,15 @@
 
 - 푸시 후 GitHub 페이지를 새로고침 합니다.
 
-![gigi](https://subicura.com/git/assets/img/github-push-2-1.78263006.png "GitHub 페이지를 새로고침")
+![gigi](https://subicura.com/git/assets/img/github-push-2-1.78263006.png )
 
 - 로컬 저장소에서 작업한 새로운 커밋과 파일이 추가된 것을 확인할 수 있습니다.
 
-![wwi]( https://subicura.com/git/assets/img/github-push-2-2.33ce7abb.png "GitHub 로컬 저장소 ")
+![wwi]( https://subicura.com/git/assets/img/github-push-2-2.33ce7abb.png)
 
 - 이력도 정상적으로 확인됩니다.
 
-![gfds](https://subicura.com/git/assets/img/github-push-2-3.f34d948b.png "GitHub 커밋 변경사항")
+![gfds](https://subicura.com/git/assets/img/github-push-2-3.f34d948b.png )
 
 - 커밋 변경사항도 확인할 수 있습니다.
 
