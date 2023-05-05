@@ -33,10 +33,15 @@
    - 실습
     
 `mkdir sample`
+
 `cd sample`
+
 `touch red orange`
+
 `echo "빨강" >> red`
+
 `echo "주황" >> orange`
+
 `git init`
 
  __mkdir, cd, touch, echo 명령어__
