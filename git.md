@@ -32,13 +32,14 @@
 
    - 실습
     
-`mkdir sample
+`mkdir sample'
+<br>
+'cd sample'
 
- cd sample
- touch red orange
- echo "빨강" >> red
- echo "주황" >> orange
- git init`
+'touch red orange'
+'echo "빨강" >> red'
+'echo "주황" >> orange'
+'git init`
 
  __mkdir, cd, touch, echo 명령어__
     *  터미널 명령어를 소개합니다.
