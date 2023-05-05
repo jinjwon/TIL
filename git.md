@@ -25,12 +25,12 @@
   `it init`
     - 로컬 Git 저장소를 설정합니다.
 
-    - 작업
+   - 작업
     - sample 디렉토리 생성
     - red, orange 파일 추가
     - sample 디렉토리를 로컬 저장소로 설정
 
-    - 실습
+   - 실습
     
  `mkdir sample`
  `cd sample`
@@ -42,16 +42,16 @@
  __mkdir, cd, touch, echo 명령어__
     *  터미널 명령어를 소개합니다.
 
-    * mkdir: 디렉토리 생성
-    * cd: 디렉토리로 이동
-    * touch: 빈 파일 생성
-    * echo "[글자]" >> [파일]: 파일에 글자 추가
+   * mkdir: 디렉토리 생성
+   * cd: 디렉토리로 이동
+   * touch: 빈 파일 생성
+   * echo "[글자]" >> [파일]: 파일에 글자 추가
 
-    - 결과
-       `Initialized empty Git repository in /Users/cs.kim/Workspace/github.com/subicura/sample/.git/`
-    - sample 디렉토리에 Git 저장소 생성
+   - 결과
+ `Initialized empty Git repository in /Users/cs.kim/Workspace/github.com/subicura/sample/.git/`
+  - sample 디렉토리에 Git 저장소 생성
     - 디렉토리 하위에 .git 디렉토리 생성 - Git과 관련된 정보 저장
-    - 쉘 프롬프트가 ➜ sample에서 ➜ sample git:(main) ✗로 변경
+     - 쉘 프롬프트가 ➜ sample에서 ➜ sample git:(main) ✗로 변경
     
     + main branch
     + 기본 브랜치 설정이 master인 경우 main 대신 master로 설정됩니다. 최근 master 대신 main을 쓰는 추세고 master로 설정되었다면 git branch -M main 명령어로 브랜치를 main으로 변경해주세요.
@@ -72,11 +72,11 @@
 
    `git status # gst`
 
-    +  gst 는 뭔가요?
+   +  gst 는 뭔가요?
      +  명령어 뒤에 주석으로 써있는 부분은 alias로 oh-my-zsh을 설치하면 사용할 수 있는 별칭입니다.
       +  git status대신 gst만 입력해도 동일하게 동작합니다. alias를 적극적으로 써보세요! 
       
-       +  결과
+         +  결과
        `On branch main`
 
        `No commits yet`
@@ -87,8 +87,8 @@
        `red`
 
        `nothing added to commit but untracked files present (use "git add" to track)`
-      + 현재 브랜치(main)와 커밋 상태, 작업 중인 파일의 상태 확인
-      + untracked files(추적하지 않는 파일)이 존재하는 것을 확인
+   + 현재 브랜치(main)와 커밋 상태, 작업 중인 파일의 상태 확인
+       + untracked files(추적하지 않는 파일)이 존재하는 것을 확인
 
        -----------------------
 
