@@ -32,7 +32,7 @@
 
    - 실습
     
- `mkdir sample
+`mkdir sample
  cd sample
  touch red orange
  echo "빨강" >> red
