@@ -1,4 +1,4 @@
-# Git (opens new window)
+# _Git (opens new window)_
 
 ![pont](https://velog.velcdn.com/images/dnrwhddk1/post/1c4d727f-25b3-44dc-aa82-f12996688782/image.png)
 
@@ -20,7 +20,7 @@
 
 ----------------------------------------------------
 
-## git init - 저장소 만들기
+## __git init - 저장소 만들기__
 
   `it init`
   - 로컬 Git 저장소를 설정합니다.
@@ -98,7 +98,7 @@
 
        -----------------------
 
-#### git add - 현재 상태 추적
+#### __git add - 현재 상태 추적__
 
    `git add [-A] [<pathspec>…​]`
 
@@ -129,7 +129,7 @@
 
 ---------------------
 
-##### git commit - 현재 상태 저장
+##### __git commit - 현재 상태 저장__
 
   `git commit [-m <msg>]`
 
@@ -229,7 +229,7 @@
 
 -------------------------------------
 
-###### git log - 이력 확인
+###### __git log - 이력 확인__
 
    `git log [<options>] [<revision range>] [[--] <path>…​]`
 
@@ -267,7 +267,7 @@
 
 -------------------------------;
 
-###### git push - 원격 저장소 저장
+###### __git push - 원격 저장소 저장__
 
 `git remote add <name> <url>`
 
@@ -368,7 +368,7 @@
 
 - 커밋 변경사항도 확인할 수 있습니다.
 
-##### 추가 커밋 Push
+##### __추가 커밋 Push__
 
 - 현재 동일한 원격 저장소를 바라보는 두 개의 로컬 저장소가 있습니다. 하나의 저장소에서 변화를 주고 다른 저장소에서 변화를 동기화하는 작업을 해보겠습니다.
 
@@ -405,7 +405,7 @@
    33d9d23..cdce49d  main -> main
  sample 로컬 저장소와 GitHub 저장소는 purple이 추가되어 있고, sample-2 저장소는 아직 추가되지 않은 상태입니다.`
 
-##### git pull - 원격 저장소 내용 가져오기
+##### __git pull - 원격 저장소 내용 가져오기__
 
 `git pull [<repository> [<refspec>…​]]`
 
