@@ -12,7 +12,7 @@
 --------------------------------
 # __HTML 요소(Element)의 구조__
 
-![ghgh]( https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started/grumpy-cat-small.png ")
+`<ghgh= "https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started/grumpy-cat-small.png" >`
   - 엘리먼트의 주요 부분은 다음과 같습니다.
   
   1. 여는 태그(Opening tag)
