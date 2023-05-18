@@ -12,7 +12,7 @@
 --------------------------------
 # __HTML 요소(Element)의 구조__
 
- ![ghgh] = (https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started/grumpy-cat-small.png)
+ ![ghgh](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started/grumpy-cat-small.png)
   - 엘리먼트의 주요 부분은 다음과 같습니다.
   
   1. 여는 태그(Opening tag)
@@ -81,7 +81,7 @@
 # **빈 요소(Empty elements)**
   - 모든 요소가 위에 언급된 여는 태그, 내용, 닫는 태그 패턴을 따르는 것은 아닙니다. 주로 문서에 무언가를 첨부하기 위해 단일 태그(Single tag)를 사용하는 요소도 있습니다. 예를 들어 <img> 요소는 해당 위치에 이미지를 삽입하기 위한 요소입니다:
 
-  ![gkk]=(https://raw.githubusercontent.com/mdn/beginner-html-site/gh-pages/images/firefox-icon.png)
+  ![gkk](https://raw.githubusercontent.com/mdn/beginner-html-site/gh-pages/images/firefox-icon.png" ? ")
 
    - 위에 대한 결과는 다음과 같이 나올 것입니다
 
