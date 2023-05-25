@@ -81,11 +81,10 @@
 # **빈 요소(Empty elements)**
   - 모든 요소가 위에 언급된 여는 태그, 내용, 닫는 태그 패턴을 따르는 것은 아닙니다. 주로 문서에 무언가를 첨부하기 위해 단일 태그(Single tag)를 사용하는 요소도 있습니다. 예를 들어 <img> 요소는 해당 위치에 이미지를 삽입하기 위한 요소입니다:
 
-  ![ghgh](https://raw.githubusercontent.com/mdn/beginner-html-site/gh-pages/images/firefox-icon.png"html")
+![ghgh](https://raw.githubusercontent.com/mdn/beginner-html-site/gh-pages/images/firefox-icon.png"html")
 
    - 위에 대한 결과는 다음과 같이 나올 것입니다
- 
-![ggg](https://raw.githubusercontent.com/mdn/beginner-html-site/gh-pages/images/firefox-icon.png"링크 설명(title)을 작성하세요.")
+![ghg](https://raw.githubusercontent.com/mdn/beginner-html-site/gh-pages/images/firefox-icon.png"링크 설명(title)을 작성하세요.")
    
  + 참고: 빈 요소는 가끔 Void 요소로 불리기도 합니다
  
@@ -93,8 +92,7 @@
 # __속성(Attributes)__
   
    +  요소는 아래 이미지와 같이 속성을 가질 수 있습니다
-
-   ![ghgh](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started/grumpy-cat-attribute-small.png "html 빈 요소")
+![ghgh](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started/grumpy-cat-attribute-small.png "html 빈 요소")
 
    + 속성은 요소에 실제론 나타내고 싶지 않지만 추가적인 내용을 담고 싶을 때 사용합니다. 위에는 나중에 스타일에 관련된 내용이나 기타 내용을 위해 해당 목표를 구분할 수 있는 class 속성을 부여했습니다.
 
