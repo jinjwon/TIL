@@ -81,10 +81,10 @@
 # **빈 요소(Empty elements)**
   - 모든 요소가 위에 언급된 여는 태그, 내용, 닫는 태그 패턴을 따르는 것은 아닙니다. 주로 문서에 무언가를 첨부하기 위해 단일 태그(Single tag)를 사용하는 요소도 있습니다. 예를 들어 <img> 요소는 해당 위치에 이미지를 삽입하기 위한 요소입니다:
 
-![ghgh](https://raw.githubusercontent.com/mdn/beginner-html-site/gh-pages/images/firefox-icon.png"html")
+'<img src="https://raw.githubusercontent.com/mdn/beginner-html-site/gh-pages/images/firefox-icon.png">'
 
    - 위에 대한 결과는 다음과 같이 나올 것입니다
-![ghg](https://raw.githubusercontent.com/mdn/beginner-html-site/gh-pages/images/firefox-icon.png"링크 설명(title)을 작성하세요.")
+<img src="https://raw.githubusercontent.com/mdn/beginner-html-site/gh-pages/images/firefox-icon.png">
    
  + 참고: 빈 요소는 가끔 Void 요소로 불리기도 합니다
  
