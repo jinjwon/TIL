@@ -84,9 +84,11 @@
   ![ghgh](https://raw.githubusercontent.com/mdn/beginner-html-site/gh-pages/images/firefox-icon.png"html")
 
    - 위에 대한 결과는 다음과 같이 나올 것입니다
-
-   ![ghgh](https://raw.githubusercontent.com/mdn/beginner-html-site/gh-pages/images/firefox-icon.png"html 빈 요소")
-   + 참고: 빈 요소는 가끔 Void 요소로 불리기도 합니다
+ 
+ ![tex]( (https://raw.githubusercontent.com/mdn/beginner-html-site/gh-pages/images/firefox-icon.png"링크 설명(title)을 작성하세요.")
+   
+ + 참고: 빈 요소는 가끔 Void 요소로 불리기도 합니다
+ 
 --------------------------------------------
 # __속성(Attributes)__
   
