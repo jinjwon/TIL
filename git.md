@@ -45,14 +45,14 @@
 
 `git init`
 
-**mkdir, cd, touch, echo 명령어**
+- **mkdir, cd, touch, echo 명령어**
 
 - 터미널 명령어를 소개합니다.
 
-* mkdir: 디렉토리 생성
-* cd: 디렉토리로 이동
-* touch: 빈 파일 생성
-* echo "[글자]" >> [파일]: 파일에 글자 추가
+1. mkdir: 디렉토리 생성
+2. cd: 디렉토리로 이동
+3. touch: 빈 파일 생성
+4. echo "[글자]" >> [파일]: 파일에 글자 추가
 
 - 결과
 
@@ -104,7 +104,7 @@ red`
 
   ***
 
-#### **git add - 현재 상태 추적**
+#### git add - 현재 상태 추적
 
 `git add [-A] [<pathspec>…​]`
 
@@ -126,10 +126,11 @@ red`
 
 `No commits yet`
 
-`Changes to be committed:
+```Changes to be committed:
    (use "git rm --cached <file>..." to unstage)
      new file:   orange
-     new file:   red`
+     new file:   red
+```
 
 - untracked files에 있던 orange와 red의 상태가 변경된 것을 확인
 
@@ -207,12 +208,14 @@ git commit -m "v2 commit" # gc -m "v2 commit"`
 6. 세 번째 이력 커밋
 
 - 실습
-  `rm red
-echo "오렌지" >> orange 
-touch green 
-git status # gst 
-git add -A # gaa 
-git commit -m "v3 commit" # gc -m "v3 commit"`
+
+```rm red
+echo "오렌지" >> orange
+touch green
+git status # gst
+git add -A # gaa
+git commit -m "v3 commit" # gc -m "v3 commit"
+```
 
 - 결과
 
@@ -362,7 +365,7 @@ git commit -m "v3 commit" # gc -m "v3 commit"`
 
 - 푸시 후 GitHub 페이지를 새로고침 합니다.
 
-![gigi](https://subicura.com/git/assets/img/github-push-2-1.78263006.png)
+![gii](https://subicura.com/git/assets/img/github-push-2-1.78263006.png)
 
 - 로컬 저장소에서 작업한 새로운 커밋과 파일이 추가된 것을 확인할 수 있습니다.
 
