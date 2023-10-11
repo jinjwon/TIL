@@ -138,7 +138,7 @@
 
 - W3C에서 정의한 16개의 HTML4 표준 색상 이름은 다음과 같다.
 
-![style color 자료.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/830fd546-9d9a-4eea-a2d7-6b0500b23768/style_color_%EC%9E%90%EB%A3%8C.jpg)
+![CSS color](https://www.notion.so/d113852c5a1e4c2aa78220a13255a568?pvs=4#6b08ab70a99e42eba555c94445deb5e9)
 
 > 💡 HTML에서 색상 이름은 대소문자를 구분하지 않습니다.
 
