@@ -1,6 +1,6 @@
 # HTML
 
-![HTML](https://images.velog.io/images/shkim313/post/3b73acd8-6d37-47a2-8a77-9e45e391d1f2/html.png)
+![HTML](https://reference.uz/wp-content/uploads/2019/04/html5-1024x576.jpg)
 
 ## HTML이란?
 
