@@ -1,4 +1,6 @@
-# **CSS이란?**
+# CSS
+
+## CSS이란?
 
 > CSS는 Cascading Style Sheets의 약자입니다.
 >
@@ -21,8 +23,7 @@
 
 #### HTML 요소 선택자
 
-```
-<style>
+```<style>
 
         h2 { color: teal; text-decoration: underline; }
 
@@ -31,7 +32,6 @@
     ...
 
     <h2>이 부분에 스타일을 적용합니다.</h2>
-
 ```
 
 ### 아이디(id) 선택자
@@ -39,8 +39,7 @@
 - 아이디 선택자는 CSS를 적용할 대상으로 특정 요소를 선택할 때 사용합니다.
 - 이 선택자는 웹 페이지에 포함된 여러 요소 중에서 특정 아이디 이름을 가지는 요소만을 선택해 줍니다.
 
-```
-<style>
+```<style>
 
     #heading { color: teal; text-decoration: line-through; }
 
