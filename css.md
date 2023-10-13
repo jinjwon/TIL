@@ -751,4 +751,186 @@ font-style 속성은 주로 이탤릭체를 사용하기 위해 사용하며, 
 | font-weight  | 텍스트를 얼마나 두껍게 표현할지를 설정함.                                     |
 | font-size    | 텍스트의 크기를 설정함.                                                       |
 
+---
+
 ## CSS 링크
+
+- 링크(link)에는 color, font-family, background 속성 등 CSS의 다양한 속성들을 적용할 수 있습니다.
+
+  - 또한, text-decoration 속성값을 none으로 설정하여, 링크가 연결된 텍스트의 밑줄을 제거할 수도 있습니다.
+
+    ```html
+    <style>
+      a {
+        background-color: #ffffe0;
+
+        color: darkslategray;
+
+        font-size: 1.3em;
+
+        text-decoration: none;
+      }
+    </style>
+    ```
+
+### 링크(link)의 상태
+
+- 링크는 총 5가지의 상태를 가지며, 각 상태마다 다른 스타일을 적용할 수 있습니다.
+
+  1. link : 링크의 기본 상태이며, 사용자가 아직 한 번도 해당 링크를 통해 연결된 페이지를 방문하지 않은 상태입니다.
+  2. visited : 사용자가 한 번이라도 해당 링크를 통해 연결된 페이지를 방문한 상태입니다.
+  3. hover : 사용자의 마우스 커서가 링크 위에 올라가 있는 상태입니다.
+  4. active : 사용자가 마우스로 링크를 클릭하고 있는 상태입니다.
+  5. focus : 키보드나 마우스의 이벤트(event) 또는 다른 형태로 해당 요소가 포커스(focus)를 가지고 있는 상태입니다.
+
+     ```html
+     <style>
+       a:link {
+         color: olive;
+       }
+
+       a:visited {
+         color: brown;
+       }
+
+       a:hover {
+         color: coral;
+       }
+
+       a:active {
+         color: khaki;
+       }
+     </style>
+     ```
+
+### 링크를 활용한 버튼(Button)
+
+- CSS를 이용하면 간단하게 링크를 버튼처럼 만들 수 있습니다.
+
+  ```html
+  <style>
+    a:link,
+    a:visited {
+      background-color: #ffa500;
+
+      color: maroon;
+
+      padding: 15px 25px;
+
+      text-align: center;
+
+      text-decoration: none;
+
+      display: inline-block;
+    }
+
+    a:hover,
+    a:active {
+      background-color: #ff4500;
+    }
+  </style>
+  ```
+
+---
+
+## CSS 리스트
+
+- CSS에서 사용할 수 있는 list-style 속성은 다음과 같습니다.
+  1. list-style-type
+  2. list-style-image
+  3. list-style-position
+
+### list-style-type 속성
+
+- 리스트 요소의 앞에 위치하는 숫자나 기호를 마커(marker)라고 합니다.
+  list-style-type 속성을 이용하면 리스트에 다양한 마커(marker)를 적용할 수 있습니다.
+
+  ```html
+  <style>
+    .circle {
+      list-style-type: circle;
+    }
+
+    .square {
+      list-style-type: square;
+    }
+
+    .upperAlpha {
+      list-style-type: upper-alpha;
+    }
+
+    .lowerRoman {
+      list-style-type: lower-roman;
+    }
+  </style>
+  ```
+
+  - 사용할 수 있는 마커(marker)에 대한 더 자세한 사항은 HTML 리스트에서 확인할 수 있습니다.
+
+### list-style-image 속성
+
+- list-style-image 속성을 이용하면 마커(marker)로 자신만의 이미지를 사용할 수 있습니다.
+
+  ```html
+  <style>
+    .imageMarker {
+      list-style-image: url("/examples/images/img_list_marker.png");
+    }
+  </style>
+  ```
+
+### list-style-position 속성
+
+- list-style-position 속성을 이용하면 리스트 요소의 위치를 설정할 수 있습니다.
+
+  - list-style-position 속성의 기본 속성값은 outside로 설정되어 있습니다.
+
+  ```html
+  <style>
+    .outside {
+      list-style-position: outside;
+    }
+
+    .inside {
+      list-style-position: inside;
+    }
+  </style>
+  ```
+
+### list-style 속성 한 번에 적용하기
+
+- 위에서 언급한 모든 list-style 속성을 이용한 스타일을 한 줄에 설정할 수 있습니다.
+
+  ```html
+  <style>
+    ul {
+      list-style: square inside url("/examples/images/img_list_marker.png");
+    }
+  </style>
+  ```
+
+### 리스트에 배경색 적용
+
+- CSS를 사용하면 리스트 전체뿐만 아니라 리스트 요소별로도 각각의 배경색을 설정할 수 있습니다.
+
+  ```html
+  <style>
+
+      ul { background: #D2691E; padding: 15px; }
+
+      ol { background: #6495ED; padding: 15px; }
+
+      ul li { background: #DEB887; margin: 5px; }
+
+      ol li { background: #00FFFF; margin-left: 15px; }
+
+  ```
+
+### **CSS list-style 속성**
+
+| 속성                | 설명                                                           |
+| ------------------- | -------------------------------------------------------------- |
+| list-style          | 모든 list-style 속성을 이용한 스타일을 한 줄에 설정할 수 있음. |
+| list-style-type     | 리스트 요소의 마커(marker)를 설정함.                           |
+| list-style-image    | 리스트 요소의 마커로 사용할 이미지를 설정함.                   |
+| list-style-position | 리스트 요소의 위치를 설정함.                                   |
