@@ -1269,7 +1269,7 @@ font-style 속성은 주로 이탤릭체를 사용하기 위해 사용하며, 
 
 - 모든 HTML 요소는 박스(box) 모양으로 구성되며, 이것을 박스 모델(box model)이라고 부릅니다.
 - 박스 모델은 HTML 요소를 패딩(padding), 테두리(border), 마진(margin), 그리고 내용(content)으로 구분합니다.
-  ![img_css_boxmodel imff.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/07be1d94-1c44-4208-8a55-2d03f32c61cb/978780c4-fdb3-49fa-b0e5-03e457a21dce/img_css_boxmodel_imff.png)
+  ![img_css_boxmodel imff.png](https://www.tcpschool.com/lectures/img_css_boxmodel.png)
 
 1. 내용(content) : 텍스트나 이미지가 들어있는 박스의 실질적인 내용 부분입니다.
 2. 패딩(padding) : 내용과 테두리 사이의 간격입니다. 패딩은 눈에 보이지 않습니다.
@@ -1312,7 +1312,7 @@ font-style 속성은 주로 이탤릭체를 사용하기 위해 사용하며, 
 
 ### **HTML 요소의 높이와 너비 구하기**
 
-![img_css_boxsize12.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/07be1d94-1c44-4208-8a55-2d03f32c61cb/a212c0ed-297e-4e53-b42c-3a93a33a6b28/img_css_boxsize12.png)
+![img_css_boxsize12.png](https://www.tcpschool.com/lectures/img_css_boxsize.png)
 
 - 위의 그림에서 전체 너비(width)를 계산해 보면,
 
