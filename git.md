@@ -63,8 +63,8 @@
   - 디렉토리 하위에 .git 디렉토리 생성 - Git과 관련된 정보 저장
   - 쉘 프롬프트가 ➜ sample에서 ➜ sample git:(main) ✗로 변경
 
-  * main branch
-  * 기본 브랜치 설정이 master인 경우 main 대신 master로 설정됩니다. 최근 master 대신 main을 쓰는 추세고 master로 설정되었다면 git branch -M main 명령어로 브랜치를 main으로 변경해주세요.
+  - main branch
+  - 기본 브랜치 설정이 master인 경우 main 대신 master로 설정됩니다. 최근 master 대신 main을 쓰는 추세고 master로 설정되었다면 git branch -M main 명령어로 브랜치를 main으로 변경해주세요.
 
 ---
 
