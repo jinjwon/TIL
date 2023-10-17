@@ -1312,7 +1312,7 @@ font-style 속성은 주로 이탤릭체를 사용하기 위해 사용하며, 
 
 ### **HTML 요소의 높이와 너비 구하기**
 
-![img_css_boxsize12.png](https://www.tcpschool.com/lectures/img_css_boxsize.png)
+![img_css_boxsize](https://www.tcpschool.com/lectures/img_css_boxsize.png)
 
 - 위의 그림에서 전체 너비(width)를 계산해 보면,
 
