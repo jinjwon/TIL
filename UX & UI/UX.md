@@ -15,16 +15,66 @@
 
 - NN/g에서는 훌륭한 사용자 경험을 만들기 위한 UX에서는 필요한 두 가지 요소가 존재한다고 말하고 있습니다. 첫번째는 고객을 번거롭게 하지 않으면서도 사용자의 요구 사항을 정확하게 충족시키는 것이고, 두 번째는 단순함(Simplicity)와 우아함(Elegance)입니다. 이는 사용자가 소유하고 싶고, 즐기고 싶어하는 제품을 만드는 기준이 되어야 합니다. 이러한 면에서 UX란 단순히 고객이 원하는 것을 제공하는 것 이상이라고 말할 수 있는데요. 이를 위해서는 마케팅, 엔지니어링, 디자인 등 다양한 분야를 아우리는 통합적인 시선으로 사용자와 사용자의 경험을 관찰하는 것이 필요합니다.
 
+---
+
 ## UX 대표 이론
 
-1. **Fitt's Law / 피츠의 법칙**
+### 1. **Fitt's Law / 피츠의 법칙**
 
 - 목표로 하는 지점에 도달하는데 걸리는 시간은 목표 영역의 크기와 목표까지의 거리에 따라 결정된다. 이를테면, 웹페이지에서 링크가 걸린 버튼이 너무 작으면 클릭하기 힘든 이유를 설명하는 것이다.
 
 ![fitt's](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fb0Nc3c%2FbtqEN9wEZca%2FOOjypB1yjc3wwN3GP9ErR1%2Fimg.png)
 
-2. **Hick's Law / 힉스의 법칙**
+### 2. Hick's Law / 힉스의 법칙
 
 - 사용자에게 주어진 선택지의 숫자와 복잡성에 따라 사용자가 결정하는 데 소요되는 시간이 결정된다는 법칙이다.
 
 ![hick's](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbiXC2u%2FbtqEL44ScLI%2FcQk0sNRXPkDOyedRk5vpZk%2Fimg.png)
+
+### 3. Jakob's Law / 제이콥의 법칙
+
+- 사용자는 이미 알고 있는 기존의 사이트와 동일한 방식으로 사이트를 이용하기 원한다.
+
+![jakob's](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FHmSNa%2FbtqENABuBe7%2FC8FHPixMskIVeSx7PL9QJK%2Fimg.png)
+
+### 4. Law of Pragnanz / 프라그난즈의 법칙
+
+- 사용자는 모호하거나 복잡한 이미지를 가능한 가장 간단한 형태로 인식하고 해석하려고 한다. 최소한의 인지적 노력만을 기울이려고 하기 때문이다.
+
+### 5. Law of Proximity / 근접성의 법칙
+
+- 서로 가까이 있을수록 함께 그룹화되는 경향이 있다.
+
+![law_of](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FwJbpH%2FbtqENA9j77Z%2FP923TP6XXwkkXq76rcys10%2Fimg.png)
+
+### 6. Miller's Law / 밀러의 법칙
+
+- 평균적인 사람은 작업 메모리에 7 (+/- 2)개의 항목만 저장할 수 있다고 알려져 있다.
+
+![6](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcZJdg5%2FbtqEMkfimTw%2Flw05OzaVoB9HTygSPcKKP0%2Fimg.png)
+
+### 7. Parkinson's Law / 파킨슨의 법칙
+
+- 해야 할 업무의 양은 한정된 시간을 모두 사용할 때까지 계속 증가한다.
+
+![7](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbJYhkp%2FbtqEM9YGOPH%2FmEnYVY5m0wZ7cX400qLKC0%2Fimg.png)
+
+### 8. Serial Position Effect / 서열 위치 효과
+
+- 서열 위치 효과는 사람들이 시리즈의 첫 번째 항목과 마지막 항목을 가장 잘 기억하는 성향을 일컫는다.
+
+![8](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F9ukTE%2FbtqENswVxWa%2F8itwitcrmo27aM2a3076m0%2Fimg.png)
+
+### 9. esler's Law / 테슬러의 법칙
+
+- 복잡성 보존 법칙(The Conservation of Complexity)으로도 알려진 테슬러 법칙은 어떤 시스템이라도 줄일 수 없는 복잡성이 어느 정도 존재한다는 것을 의미한다.
+
+![9](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcYOvPa%2FbtqEMkzATUT%2FPuxF08r3GITUS4b5DR1Aa0%2Fimg.png)
+
+### 10. Von Restorff Effect / 본 레스토프 효과
+
+- 분리 효과(The Isolation Effect)라고도 하는 이 법칙은 여러개의 유사한 물체가 있을 때, 나머지와 다른 물체가 기억될 가능성이 가장 높다는 것을 의미한다.
+
+![10](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fc8RuJI%2FbtqENAnXdZw%2F4nXsQR4fW1fWSrK3R6eEH0%2Fimg.png)
+
+---

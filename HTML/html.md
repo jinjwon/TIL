@@ -4,9 +4,9 @@
 
 ## HTML이란?
 
-- HTML은 HyperText Markup Language의 약자입니다.
-  웹 페이지는 HTML 문서라고도 불리며, HTML 태그들로 구성됩니다.
-  각각의 HTML 태그는 웹 페이지의 디자인이나 기능을 결정하는데 사용됩니다.
+- **HTML은 HyperText Markup Language의 약자입니다.**
+  **웹 페이지는 HTML 문서라고도 불리며, HTML 태그들로 구성됩니다.**
+  **각각의 HTML 태그는 웹 페이지의 디자인이나 기능을 결정하는데 사용됩니다.**
 
 ```<!DOCTYPE html>
   <html lang="en">
