@@ -5,7 +5,7 @@
 - padding 속성은 내용(content)과 테두리(border) 사이의 간격인 패딩 영역의 크기를 설정합니다.
   이러한 패딩 영역은 background-color 속성으로 설정하는 배경색의 영향을 함께 받습니다.
 - CSS를 사용하면 패딩 영역의 크기를 방향별로 따로 설정할 수 있습니다.
-  ![img_css_boxmodel_padding22.png](https://www.tcpschool.com/lectures/img_css_boxmodel_padding.png)
+![img_css_boxmodel_padding22.png](https://www.tcpschool.com/lectures/img_css_boxmodel_padding.png)
 
 ## 패딩(padding) 속성
 
