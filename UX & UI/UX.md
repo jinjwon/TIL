@@ -41,6 +41,8 @@
 
 - 사용자는 모호하거나 복잡한 이미지를 가능한 가장 간단한 형태로 인식하고 해석하려고 한다. 최소한의 인지적 노력만을 기울이려고 하기 때문이다.
 
+![4](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FlQEgt%2FbtqELQThfWB%2F8svKKu5mlhkGJagjjWFsK0%2Fimg.png)
+
 ### 5. Law of Proximity / 근접성의 법칙
 
 - 서로 가까이 있을수록 함께 그룹화되는 경향이 있다.
