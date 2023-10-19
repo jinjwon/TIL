@@ -57,6 +57,6 @@
 
 - Flexbox를 사용하면 복잡한 레이아웃도 더 쉽게 다룰 수 있으며, 반응형 웹 디자인을 구현하는 데 유용합니다. Flexbox의 속성과 기능을 이해하고 익히면 웹 페이지의 레이아웃을 더 효율적으로 관리할 수 있습니다.
 
-https://www.notion.so/d113852c5a1e4c2aa78220a13255a568?pvs=4#1878b9101c4340eea69c3f465984648d
+https://codepen.io/jwo5/pen/ExGdJpP
 
 ---
