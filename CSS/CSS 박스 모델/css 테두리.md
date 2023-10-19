@@ -3,7 +3,8 @@
 ## 테두리(border)이란?
 
 - border 속성은 내용(content)과 패딩(padding) 영역을 둘러싸는 테두리의 스타일을 설정한다.
-  ![img_css_boxmodel_border123.png](https://www.tcpschool.com/lectures/img_css_boxmodel_border.png)
+
+![img_css_boxmodel_border123.png](https://www.tcpschool.com/lectures/img_css_boxmodel_border.png)
 
 ## border-style 속성
 
