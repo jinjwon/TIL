@@ -54,4 +54,10 @@
 
 - Flexbox를 사용하면 복잡한 레이아웃도 더 쉽게 다룰 수 있으며, 반응형 웹 디자인을 구현하는 데 유용합니다. Flexbox의 속성과 기능을 이해하고 익히면 웹 페이지의 레이아웃을 더 효율적으로 관리할 수 있습니다.
 
+<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="ExGdJpP" data-preview="true" data-editable="true" data-user="jwo5" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/jwo5/pen/ExGdJpP">
+  CSS flex</a> by js. (<a href="https://codepen.io/jwo5">@jwo5</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 ---
