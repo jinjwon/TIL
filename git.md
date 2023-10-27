@@ -102,8 +102,6 @@ red`
 
   - untracked files(추적하지 않는 파일)이 존재하는 것을 확인
 
-  ***
-
 #### git add - 현재 상태 추적
 
 `git add [-A] [<pathspec>…​]`
