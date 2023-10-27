@@ -102,6 +102,8 @@ red`
 
   - untracked files(추적하지 않는 파일)이 존재하는 것을 확인
 
+---
+
 #### git add - 현재 상태 추적
 
 `git add [-A] [<pathspec>…​]`
@@ -375,6 +377,8 @@ git commit -m "v3 commit" # gc -m "v3 commit"
 
 - 커밋 변경사항도 확인할 수 있습니다.
 
+---
+
 ##### **추가 커밋 Push**
 
 - 현재 동일한 원격 저장소를 바라보는 두 개의 로컬 저장소가 있습니다. 하나의 저장소에서 변화를 주고 다른 저장소에서 변화를 동기화하는 작업을 해보겠습니다.
@@ -389,12 +393,14 @@ git commit -m "v3 commit" # gc -m "v3 commit"
 
 - 실습
 
-`cd sample
+```git
+cd sample
  touch purple
  echo "보라" >> purple
  git add -A # gaa
  git commit -m "add purple" # gc -m "add purple"
- git push # gp`
+ git push # gp
+```
 
 - 확인
 
@@ -409,8 +415,11 @@ git commit -m "v3 commit" # gc -m "v3 commit"
  Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
  remote: Resolving deltas: 100% (1/1), completed with 1 local object.`
 `To https://github.com/subicura-git/sample.git'
-   33d9d23..cdce49d  main -> main
- sample 로컬 저장소와 GitHub 저장소는 purple이 추가되어 있고, sample-2 저장소는 아직 추가되지 않은 상태입니다.`
+33d9d23..cdce49d main -> main
+
+- sample 로컬 저장소와 GitHub 저장소는 purple이 추가되어 있고, sample-2 저장소는 아직 추가되지 않은 상태입니다.
+
+---
 
 ##### **git pull - 원격 저장소 내용 가져오기**
 
