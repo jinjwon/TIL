@@ -404,7 +404,8 @@ cd sample
 
 - 확인
 
-`[main cdce49d] add purple
+```git
+[main cdce49d] add purple
   1 file changed, 1 insertion(+)
   create mode 100644 purple
  Enumerating objects: 4, done.
@@ -413,9 +414,13 @@ cd sample
  Compressing objects: 100% (2/2), done.
  Writing objects: 100% (3/3), 262 bytes | 262.00 KiB/s, done.
  Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
- remote: Resolving deltas: 100% (1/1), completed with 1 local object.`
-`To https://github.com/subicura-git/sample.git'
-33d9d23..cdce49d main -> main
+ remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+```
+
+```git
+To https://github.com/subicura-git/sample.git
+3d9d23..cdce49d main -> main
+```
 
 - sample 로컬 저장소와 GitHub 저장소는 purple이 추가되어 있고, sample-2 저장소는 아직 추가되지 않은 상태입니다.
 
