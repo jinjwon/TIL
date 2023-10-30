@@ -33,17 +33,19 @@
 
 - 실습
 
-`mkdir sample`
+```git
+mkdir sample
 
-`cd sample`
+cd sample
 
-`touch red orange`
+touch red orange
 
-`echo "빨강" >> red`
+echo "빨강" >> red
 
-`echo "주황" >> orange`
+echo "주황" >> orange
 
-`git init`
+git init
+```
 
 - **mkdir, cd, touch, echo 명령어**
 
@@ -68,7 +70,7 @@
 
 ---
 
-### **git status - 현재 상태 확인**
+## **git status - 현재 상태 확인**
 
 `git status`
 
@@ -87,16 +89,19 @@
 - git status대신 gst만 입력해도 동일하게 동작합니다. alias를 적극적으로 써보세요!
 
   - 결과
-    `On branch main`
 
-  `No commits yet`
+```git
+    On branch main
 
-  `Untracked files:
+  No commits yet
+
+  Untracked files:
 (use "git add <file>..." to include in what will be committed)
 orange
 red`
 
-  `nothing added to commit but untracked files present (use "git add" to track)`
+  nothing added to commit but untracked files present (use "git add" to track)
+```
 
 - 현재 브랜치(main)와 커밋 상태, 작업 중인 파일의 상태 확인
 
@@ -104,7 +109,7 @@ red`
 
 ---
 
-#### git add - 현재 상태 추적
+## git add - 현재 상태 추적
 
 `git add [-A] [<pathspec>…​]`
 
@@ -122,11 +127,13 @@ red`
 
 - 결과
 
-`On branch main`
+```git
+On branch main
 
-`No commits yet`
+No commits yet
 
-```Changes to be committed:
+
+  Changes to be committed:
    (use "git rm --cached <file>..." to unstage)
      new file:   orange
      new file:   red
@@ -136,7 +143,7 @@ red`
 
 ---
 
-##### **git commit - 현재 상태 저장**
+## **git commit - 현재 상태 저장**
 
 `git commit [-m <msg>]`
 
@@ -151,10 +158,12 @@ red`
 
 - 결과
 
-`[main (root-commit) 25354ae] v1 commit
+```git
+ [main (root-commit) 25354ae] v1 commit
   2 files changed, 0 insertions(+), 0 deletions(-)
   create mode 100644 orange
-  create mode 100644 red`
+  create mode 100644 red
+```
 
 - 커밋을 생성했다!
 
@@ -173,10 +182,13 @@ red`
   git status # gst
 
 - 결과
-  `On branch main
+
+```git
+  On branch main
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
-    yellow`
+    yellow
+```
 
 `nothing added to commit but untracked files present (use "git add" to track)`
 
@@ -188,8 +200,11 @@ Untracked files:
   2. 두 번째 이력 커밋
 
 - 실습
-  `git add -A # gaa
-git commit -m "v2 commit" # gc -m "v2 commit"`
+
+  ```git
+  git add -A # gaa
+  git commit -m "v2 commit" # gc -m "v2 commit"
+  ```
 
 - 현재 Git 저장소 이력
   첫번째 커밋(v1)---두번째 커밋(v2)
@@ -209,28 +224,31 @@ git commit -m "v2 commit" # gc -m "v2 commit"`
 
 - 실습
 
-```rm red
-echo "오렌지" >> orange
-touch green
-git status # gst
-git add -A # gaa
-git commit -m "v3 commit" # gc -m "v3 commit"
+```git
+  rm red
+  echo "오렌지" >> orange
+  touch green
+  git status # gst
+  git add -A # gaa
+  git commit -m "v3 commit" # gc -m "v3 commit"
 ```
 
 - 결과
 
-`On branch main
+```git
+On branch main
  Changes not staged for commit:
    (use "git add/rm <file>..." to update what will be committed)
    (use "git restore <file>..." to discard changes in working directory)
     modified:   orange
     deleted:    red`
 
-`Untracked files:
+ Untracked files:
   (use "git add <file>..." to include in what will be committed)
-    green`
+    green
 
-`no changes added to commit (use "git add" and/or "git commit -a")`
+  no changes added to commit (use "git add" and/or "git commit -a")
+```
 
 - orange를 수정했고 red는 삭제, green은 새로 만들어진 것을 확인
 - 현재 Git 저장소 이력
@@ -238,7 +256,7 @@ git commit -m "v3 commit" # gc -m "v3 commit"
 
 ---
 
-#### **git log - 이력 확인**
+## **git log - 이력 확인**
 
 `git log [<options>] [<revision range>] [[--] <path>…​]`
 
@@ -254,33 +272,37 @@ git commit -m "v3 commit" # gc -m "v3 commit"
 
 - 결과
 
-`commit 306b9474de0af37367ff90e5c1367588413f81bf (HEAD -> main)
+```git
+commit 306b9474de0af37367ff90e5c1367588413f81bf (HEAD -> main)
  Author: subicura <subicura@subicura.com>
  Date:   Sat Jul 17 00:55:36 2021 +0900`
 
-`v3 commit`
+v3 commit
 
-`commit 27a00b73cf7ab2e70e8dd5e5235bf7f94e9ddd84
+commit 27a00b73cf7ab2e70e8dd5e5235bf7f94e9ddd84
  Author: subicura <subicura@subicura.com>
  Date:   Sat Jul 17 00:53:50 2021 +0900`
 
-`v2 commit`
+v2 commit
 
-`commit 1ac5146ad27c5277996d54c08ec4ccded0edd4e3
+commit 1ac5146ad27c5277996d54c08ec4ccded0edd4e3
  Author: subicura <subicura@subicura.com>
  Date:   Sat Jul 17 00:50:30 2021 +0900`
 
-`v1 commit`
+v1 commit
+```
 
 - 전체 커밋 로그 확인
 
 ---
 
-##### **git push - 원격 저장소 저장**
+## **git push - 원격 저장소 저장**
 
-`git remote add <name> <url>`
+```git
+  git remote add <name> <url>
 
-`git push [-u | --set-upstream] [<repository> [<refspec>…​]]`
+  git push [-u | --set-upstream] [<repository>] [<refspec>…​]
+```
 
 - 앞에서 실습했던 로컬 저장소를 GitHub에 푸시합니다. 로컬 저장소의 커밋 목록이 그대로 복제될 예정입니다.
 
@@ -302,23 +324,27 @@ git commit -m "v3 commit" # gc -m "v3 commit"
 
 - 결과
 
-`Username for 'https://github.com':
- Password for 'https://subicura-git@github.com':
- Enumerating objects: 24, done.
- Counting objects: 100% (24/24), done.
- Delta compression using up to 8 threads
- Compressing objects: 100% (15/15), done.
- Writing objects: 100% (24/24), 1.82 KiB | 1.82 MiB/s, done.
- Total 24 (delta 5), reused 0 (delta 0), pack-reused 0
- remote: Resolving deltas: 100% (5/5), done.
- To https://github.com/subicura-git/sample.git`
-`* [new branch]      main -> main
- Branch 'main' set up to track remote branch 'main' from 'origin'.
- GitHub 저장소의 접근권한이 제한되어 있어 아이디, 패스워드를 입력하라고 합니다. 아이디, 패스워드를 입력하면  정상적으로 푸시가 완료됩니다.`
+```git
+  Username for 'https://github.com:
+  Password for 'https://subicura-git@github.com:
+  Enumerating objects: 24, done.
+  Counting objects: 100% (24/24), done.
+  Delta compression using up to 8 threads
+  Compressing objects: 100% (15/15), done.
+  Writing objects: 100% (24/24), 1.82 KiB | 1.82 MiB/s, done.
+  Total 24 (delta 5), reused 0 (delta 0), pack-reused 0
+  remote: Resolving deltas: 100% (5/5), done.
+  To https://github.com/subicura-git/sample.git
+```
+
+- [new branch] main -> main
+  Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+- GitHub 저장소의 접근권한이 제한되어 있어 아이디, 패스워드를 입력하라고 합니다. 아이디, 패스워드를 입력하면 정상적으로 푸시가 완료됩니다.`
 
 - GitHub 저장소의 접근권한이 제한되어 있어 아이디, 패스워드를 입력하라고 합니다. 아이디, 패스워드를 입력하면 정상적으로 푸시가 완료됩니다.
 
--**https vs ssh**
+- **https vs ssh**
 
 - 원격 저장소의 주소를 설정할 때, https와 ssh를 선택할 수 있습니다. https는 아이디/패스워드 방식을 사용하고 ssh는 개인키와 공개키를 이용합니다. 이번 실습에선 https 방식을 이용합니다.
 
@@ -343,15 +369,18 @@ git commit -m "v3 commit" # gc -m "v3 commit"
 
 - 실습
 
-`touch navy
+```git
+ touch navy
  echo "네이비" >> navy
  git add -A # gaa
  git commit -m "add navy" # gc -m "add navy"
  git push # gp`
+```
 
 - 확인
 
-`Enumerating objects: 4, done.
+```git
+  Enumerating objects: 4, done.
  Counting objects: 100% (4/4), done.
  Delta compression using up to 8 threads
  Compressing objects: 100% (2/2), done.
@@ -360,6 +389,7 @@ git commit -m "v3 commit" # gc -m "v3 commit"
  remote: Resolving deltas: 100% (1/1), completed with 1 local object.
  To https://github.com/subicura-git/sample.git
     a580ff2..33d9d23  main -> main`
+```
 
 - 이전에 했던 작업과 차이점은 마지막에 푸시를 한 것밖에 없습니다. Git은 로컬에서 대부분의 작업이 이루어지고 원격 저장소와 연동이 필요하다고 생각할 때 추가적인 작업을 하면 됩니다.
 
@@ -379,7 +409,7 @@ git commit -m "v3 commit" # gc -m "v3 commit"
 
 ---
 
-##### **추가 커밋 Push**
+## **추가 커밋 Push**
 
 - 현재 동일한 원격 저장소를 바라보는 두 개의 로컬 저장소가 있습니다. 하나의 저장소에서 변화를 주고 다른 저장소에서 변화를 동기화하는 작업을 해보겠습니다.
 
@@ -426,7 +456,7 @@ To https://github.com/subicura-git/sample.git
 
 ---
 
-##### **git pull - 원격 저장소 내용 가져오기**
+## **git pull - 원격 저장소 내용 가져오기**
 
 `git pull [<repository> [<refspec>…​]]`
 
@@ -445,14 +475,18 @@ To https://github.com/subicura-git/sample.git
 
 - 확인
 
-`Updating 33d9d23..cdce49d
+```git
+  Updating 33d9d23..cdce49d
  Fast-forward
   purple | 1 +
   1 file changed, 1 insertion(+)
-  create mode 100644 purple`
+  create mode 100644 purple
+```
 
 - sample-2 로컬 저장소에 purple 파일이 생긴 것을 확인할 수 있습니다.
 
 - **Git Pull을 자주 하자**
 
 - 원격 저장소와 로컬 저장소의 차이가 커지면 나중에 충돌이 많이 발생하기 때문에 Git Pull은 자주 수행하는 것이 좋습니다.
+
+---
