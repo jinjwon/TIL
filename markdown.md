@@ -203,10 +203,12 @@ _You **can** ~~combine~~ them_
 
 # 10. Links (Anchor) 링크
 
-` [Google](http://www.google.com "구글")`
-<br>
-`[Naver](http://www.naver.com "네이버")`
-<br>
-`[Github](http://www.github.com "깃허브")`
+```git
+  [Google](http://www.google.com "구글")
+  <br>
+  [Naver](http://www.naver.com "네이버")
+  <br>
+  [Github](http://www.github.com "깃허브")
+```
 
 ---
