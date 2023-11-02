@@ -80,7 +80,7 @@ You got me fly so fast <br>
 
 ---
 
-# 4. Emphasis 강조
+## 4. Emphasis 강조
 
 - `기울여 쓰기(italic) : * 또는 _로 감싼 텍스트'
    <br>
@@ -100,7 +100,7 @@ _You **can** ~~combine~~ them_
 
 ---
 
-# 5. Blockquotes 인용
+## 5. Blockquotes 인용
 
 - `>으로 시작하는 텍스트.`
   <br/> \*`>는 3개까지 가능합니다.`
@@ -116,7 +116,7 @@ As Grace Hopper said:
 
 ---
 
-# 6. Lists 목록
+## 6. Lists 목록
 
 **Unordered lists 순서가 없는 목록**
 `*, +, - 를 이용해서 순서가 없는 목록을 만들 수 있습니다.`
@@ -138,7 +138,7 @@ As Grace Hopper said:
 
 ---
 
-# 7. Ordered lists 순서가 있는 목록
+## 7. Ordered lists 순서가 있는 목록
 
 -숫자를 기입하면 순서가 있는 목록이 됩니다. -들여쓰기를 하면 모양이 바뀝니다. -숫자를 무엇을 쓰느냐는 그다지 큰 의미가 없고 순서대로 알아서 숫자를 매깁니다
 
@@ -201,7 +201,7 @@ _You **can** ~~combine~~ them_
 
 ---
 
-# 10. Links (Anchor) 링크
+## 10. Links (Anchor) 링크
 
 ```git
   [Google](http://www.google.com "구글")
