@@ -103,7 +103,7 @@ _You **can** ~~combine~~ them_
 ## 5. Blockquotes 인용
 
 - `>으로 시작하는 텍스트.`
-  <br/> \*`>는 3개까지 가능합니다.`
+  `<br/> \*>`는 3개까지 가능합니다.
 
 As Grace Hopper said:
 
@@ -175,9 +175,9 @@ _You **can** ~~combine~~ them_
 ## 9.이미지
 
 - 링크와 비슷하지만 앞에 !가 붙습니다.
-- 인라인 이미지 ` ![alt text](/test.png)`
+- 인라인 이미지 `![alt text](/test.png)`
 - 링크 이미지 `![alt text](image_URL)`
-- 이미지의 사이즈를 변경하기 위해서는 <img width="OOOpx" height="OOOpx"></img>와 같이 표현합니다.
+- 이미지의 사이즈를 변경하기 위해서는`<img width="OOOpx" height="OOOpx"></img>`와 같이 표현합니다.
 
 ---
 

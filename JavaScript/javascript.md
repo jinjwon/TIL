@@ -1,5 +1,7 @@
 # JavaScript
 
+![js](https://northsoft.co/blog/wp-content/uploads/2022/11/image-1024x538.jpeg)
+
 ## _JavaScript이란?_
 
 > **자바스크립트(JavaScript)는 객체(object) 기반의 스크립트 언어입니다.**
