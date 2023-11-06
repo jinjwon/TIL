@@ -109,3 +109,61 @@ console.log(a);
 - `||`: OR
 
 - OR의 경우엔 엔터키 위의 \ 문자를 Shift 누른 상태로 누르면 됩니다.
+
+### **NOT**
+
+- NOT 연산자는 true 는 false 로, false 는 true 로 바꿔줍니다.
+
+```jsx
+const a = !true;
+console.log(a);
+```
+
+- a 값은 false 입니다.
+
+```java
+const b = !false;
+console.log(b);
+
+```
+
+- b 값은 true 가 됩니다.
+
+### **AND**
+
+AND 연산자는 양쪽의 값이 둘 다 true 일때만 결과물이 true 입니다.
+
+```jsx
+const a = true && true;
+console.log(a);
+
+```
+
+- 다음과 같은 상황엔 모두 false 입니다.
+
+```jsx
+let f = false && false;
+f = false && true;
+f = true && false;
+
+```
+
+### **OR**
+
+- OR 연산자는 양쪽의 값 중 하나라도 true 라면 결과물이 true 입니다. 그리고, 두 값이 둘 다 false 일 때에만 false 입니다.
+
+- 다음 상황엔 t 값은 true 입니다.
+
+```jsx
+let t = true || false;
+t = false || true;
+t = true || true;
+
+```
+
+- 반면 상황엔 false 입니다.
+
+```jsx
+let f = false || false;
+
+```
