@@ -124,7 +124,6 @@ console.log(a);
 ```java
 const b = !false;
 console.log(b);
-
 ```
 
 - b 값은 true 가 됩니다.
@@ -136,7 +135,6 @@ AND 연산자는 양쪽의 값이 둘 다 true 일때만 결과물이 true 입�
 ```jsx
 const a = true && true;
 console.log(a);
-
 ```
 
 - 다음과 같은 상황엔 모두 false 입니다.
@@ -145,7 +143,6 @@ console.log(a);
 let f = false && false;
 f = false && true;
 f = true && false;
-
 ```
 
 ### **OR**
@@ -158,12 +155,10 @@ f = true && false;
 let t = true || false;
 t = false || true;
 t = true || true;
-
 ```
 
 - 반면 상황엔 false 입니다.
 
 ```jsx
 let f = false || false;
-
 ```
