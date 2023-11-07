@@ -192,3 +192,83 @@ const value = !((true && false) || (true && false) || !false);
 ```
 
 - 결국 결과값은 false 가 됩니다.
+
+## **비교 연산자**
+
+- 비교 연산자는 두 값을 비교 할 때 사용 할 수 있습니다.
+
+### **두 값이 일치하는지 확인**
+
+```jsx
+const a = 1;
+const b = 1;
+const equals = a === b;
+console.log(equals);
+```
+
+- `===` 는 두 값이 일치하는지 확인해줍니다. 일치한다면, true, 일치하지 않는다면 false 가 나타납니다. 위 코드의 경우엔 true 가 나타나겠죠?
+
+- 두 값이 일치 하는지 확인 할 때 `=` 문자를 3번 사용하는데요, 2개로도 비교를 할 수는 있습니다.
+
+```jsx
+const a = 1;
+const b = 1;
+const equals = a == b;
+console.log(equals);
+```
+
+- 위 코드는 똑같은 결과 true 를 반환하긴 하는데요, `=` 문자가 3개 있을 때와 2개 있을 떄의 차이점은 2개 있을때에는 타입 검사까지는 하지 않는다는 것입니다.
+
+예를 들어서 `==` 를 사용하면 숫자 1과 문자 '1' 이 동일한 값으로 간주됩니다.
+
+```jsx
+const a = 1;
+const b = "1";
+const equals = a == b;
+console.log(equals);
+```
+
+결과: true
+
+그리고, 0 과 false 도 같은 값으로 간주되지요.
+
+```jsx
+const a = 0;
+const b = false;
+const equals = a == b;
+console.log(equals);
+```
+
+결과: true
+
+그리고 undefined 와 null 도 같은 값으로 간주됩니다.
+
+```jsx
+const a = null;
+const b = undefined;
+const equals = a == b;
+console.log(equals);
+```
+
+결과: true
+
+앞으로 여러분이 두 값이 일치하는지 비교 할 때에는 `==` 대신 `===` 를 사용 할 것을 권장 드립니다. `==` 를 사용하다보면 실수를 할 확률이 높아집니다.
+
+### **두 값이 일치하지 않는지 확인**
+
+두 값이 일치하지 않는지 확인 할 때에는 `!==` 를 사용하면 됩니다.
+
+```jsx
+const value = "a" !== "b";
+```
+
+결과물은 true 가 됩니다.
+
+`!=` 를 사용하게 되면 타입 검사를 하지 않습니다.
+
+```jsx
+console.log(1 != "1");
+console.log(1 !== "1");
+```
+
+처음엔 false, 두번째에서는 true가 나타납니다. 두 값이 일치하지 않는지 확인 할 때에도, !== 를 사용 할 것을 권장드립니다.
