@@ -64,6 +64,8 @@ console.log("if문 밖의 a 값은 " + a);
 "if문 밖의 a 값은 1";
 ```
 
+---
+
 ## **if-else 문**
 
 - if-else문은 "~~하다면 ~~하고, 그렇지 않다면 ~~해라." 를 의미합니다.
@@ -86,6 +88,8 @@ if (a > 15) {
 ```
 
 - 만약에 특정 조건이 만족할 때와 만족하지 않을 때 서로 다른 코드를 실행해야 된다면 if-else 구문을 사용 할 수 있습니다.
+
+---
 
 ## **if-else if 문**
 
@@ -118,4 +122,40 @@ a = 7 -> "5도 아니고 10도 아닙니다."
 
 ```
 
+---
+
 ## **switch/case 문**
+
+switch/case 문은 특정 값이 무엇이냐에 따라 다른 작업을 하고 싶을 때 사용합니다.
+
+다음 예시 코드를 실행해보세요.
+
+```jsx
+const device = "iphone";
+
+switch (device) {
+  case "iphone":
+    console.log("아이폰!");
+    break;
+  case "ipad":
+    console.log("아이패드!");
+    break;
+  case "galaxy note":
+    console.log("갤럭시 노트!");
+    break;
+  default:
+    console.log("모르겠네요..");
+}
+```
+
+device 값을 'iphone', 'ipad', 'galaxy note', 'macbook' 으로 순서대로 바꿔가면서 코드를 실행해보세요.
+
+device 값에 따라서 다른 결과가 출력되고 있나요?
+
+switch/case 문은 이와 같이 특정 값이 무엇이냐에 따라 다른 작업을 수행 할 수 있게 해줍니다.
+
+switch/case 문에서는 각 case 에서 실행할 코드를 작성하고 맨 마지막에 `break;` 를 해주어야 합니다. break 를 하지 않으면 그 다음 case 의 코드까지 실행해버립니다.
+
+그리고, 맨 아래의 `default:` 는 device 값이 우리가 case 로 준비하지 않은 값일 경우를 의미합니다.
+
+---
